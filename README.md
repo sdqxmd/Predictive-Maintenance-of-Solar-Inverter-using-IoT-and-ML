@@ -20,11 +20,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sdqxmd/Predictive-Maintenance-of-Solar-Inverter-using-IoT-and-ML">
-    <img src="https://img.shields.io/badge/Explore_Repository-161B22?style=for-the-badge&logo=github&logoColor=14B8A6" alt="Explore the project repository" />
+  <a href="https://github.com/sdqxmd/Predictive-Maintenance-of-Solar-Inverter-using-IoT-and-ML/tree/main/Simulations%20and%20ML%20models">
+    <img src="https://img.shields.io/badge/Simulation_%26_ML_Folder-0F766E?style=for-the-badge&logo=github&logoColor=white" alt="Browse the simulation and ML models folder" />
   </a>
-  <a href="https://github.com/sdqxmd/Predictive-Maintenance-of-Solar-Inverter-using-IoT-and-ML/issues">
-    <img src="https://img.shields.io/badge/Ideas_%26_Discussion-0F766E?style=for-the-badge&logo=github&logoColor=white" alt="Share project ideas or open an issue" />
+  <a href="https://github.com/sdqxmd/Predictive-Maintenance-of-Solar-Inverter-using-IoT-and-ML/tree/main/Project%20Images">
+    <img src="https://img.shields.io/badge/Project_Images-161B22?style=for-the-badge&logo=github&logoColor=FACC15" alt="Browse project images" />
   </a>
 </p>
 
@@ -32,6 +32,8 @@
   <a href="#overview">Overview</a>
   &nbsp;•&nbsp;
   <a href="#simulation">Simulation</a>
+  &nbsp;•&nbsp;
+  <a href="#project-files">Project Files</a>
   &nbsp;•&nbsp;
   <a href="#dataset">Dataset</a>
   &nbsp;•&nbsp;
@@ -128,10 +130,10 @@
 <h2 align="center">⚡ Inside the MATLAB/Simulink Model</h2>
 
 <p align="center">
-  <a href="./images/predictivemaintenancesolarinvertermodel.jpg">
+  <a href="https://raw.githubusercontent.com/sdqxmd/Predictive-Maintenance-of-Solar-Inverter-using-IoT-and-ML/main/Project%20Images/Simulation%20Model%20Image.jpg">
     <img
-      src="./images/predictivemaintenancesolarinvertermodel.jpg"
-      width="1100"
+      src="https://raw.githubusercontent.com/sdqxmd/Predictive-Maintenance-of-Solar-Inverter-using-IoT-and-ML/main/Project%20Images/Simulation%20Model%20Image.jpg"
+      width="100%"
       alt="MATLAB Simulink solar inverter model showing a PV source, boost converter, DC link, PWM-controlled full bridge, output filter, load, and RMS and THD measurements"
     />
   </a>
@@ -184,6 +186,88 @@
 
 <p align="center">
   <b>The model is being developed as the foundation for data generation and fault studies.</b>
+</p>
+
+---
+
+<!-- PROJECT FILES -->
+<a name="project-files"></a>
+<h2 align="center">📂 Project Files &amp; Model Access</h2>
+
+<p align="center">
+  Project images and model files are organized in the folders below.
+  The simulation and ML folder is ready for upcoming model uploads.
+</p>
+
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">Folder / File</th>
+      <th align="center">Purpose</th>
+      <th align="center">Availability</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/sdqxmd/Predictive-Maintenance-of-Solar-Inverter-using-IoT-and-ML/tree/main/Project%20Images">
+          <b>Project Images</b>
+        </a>
+      </td>
+      <td align="center">
+        Simulation screenshots and project visuals.
+      </td>
+      <td align="center">
+        🟢 Simulation image available
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/sdqxmd/Predictive-Maintenance-of-Solar-Inverter-using-IoT-and-ML/tree/main/Simulations%20and%20ML%20models">
+          <b>Simulations and ML models</b>
+        </a>
+      </td>
+      <td align="center">
+        Destination for simulation files, ML models, and supporting scripts.
+      </td>
+      <td align="center">
+        🟡 Folder created · Model uploads pending
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="./README.md"><b>README.md</b></a>
+      </td>
+      <td align="center">
+        Project overview, development stages, and documentation.
+      </td>
+      <td align="center">
+        🟢 Available
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 align="center">🧩 Planned Contents of the Models Folder</h3>
+
+<p align="center">
+  MATLAB/Simulink model files<br />
+  Data-generation and preprocessing scripts<br />
+  ML training and evaluation code<br />
+  Saved models and associated preprocessing settings<br />
+  Dependencies, configuration details, and execution instructions
+</p>
+
+<p align="center">
+  <a href="https://github.com/sdqxmd/Predictive-Maintenance-of-Solar-Inverter-using-IoT-and-ML/tree/main/Simulations%20and%20ML%20models">
+    <img src="https://img.shields.io/badge/Open_Simulation_%26_ML_Folder-0F766E?style=for-the-badge&logo=github&logoColor=white" alt="Open the simulation and ML models folder" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>
+    Model files and their setup instructions will be added as they are prepared for sharing.
+  </sub>
 </p>
 
 ---
@@ -472,62 +556,25 @@ flowchart TD
 <h2 align="center">🚧 Project Roadmap</h2>
 
 - [x] Develop an initial MATLAB/Simulink solar inverter model.
-- [ ] Complete validation of the simulation across selected operating conditions.
+- [x] Add the simulation model image to the repository.
+- [x] Create a dedicated simulation and ML models folder.
+- [ ] Upload simulation models and supporting scripts.
+- [ ] Complete validation across selected operating conditions.
 - [ ] Expand and document the healthy and faulty simulation dataset.
 - [ ] Complete ML training experiments and model comparisons.
+- [ ] Upload ML code, saved models, and execution instructions.
 - [ ] Evaluate models using independent simulation runs.
 - [ ] Investigate RUL estimation using suitable degradation or lifetime data.
 - [ ] Develop the hardware prototype.
 - [ ] Integrate IoT data logging and monitoring.
 - [ ] Evaluate and refine models using hardware measurements.
-- [ ] Publish results, reproducibility details, and project documentation.
+- [ ] Publish results and reproducibility details.
 
 <p align="center">
   <b>Current focus:</b>
   simulation development, MATLAB-generated data,
   dataset preparation, and machine-learning training.
 </p>
-
----
-
-<!-- REPOSITORY MATERIALS -->
-<h2 align="center">📂 Planned Repository Additions</h2>
-
-<p align="center">
-  This repository documents an ongoing project.
-  Supporting files will be added as they are prepared for sharing.
-</p>
-
-<table align="center">
-  <thead>
-    <tr>
-      <th align="center">Material</th>
-      <th align="center">Planned Contents</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><b>Simulation Models</b></td>
-      <td align="center">Simulink models, configuration details, and model parameters.</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Data Generation</b></td>
-      <td align="center">Scripts, scenario definitions, and signal-logging instructions.</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Datasets</b></td>
-      <td align="center">Data samples, field descriptions, labels, and generation metadata.</td>
-    </tr>
-    <tr>
-      <td align="center"><b>ML Experiments</b></td>
-      <td align="center">Preprocessing, training workflows, model settings, and evaluation results.</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Hardware &amp; IoT</b></td>
-      <td align="center">Component details, schematics, acquisition code, and monitoring documentation.</td>
-    </tr>
-  </tbody>
-</table>
 
 ---
 
